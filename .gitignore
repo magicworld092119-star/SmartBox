@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+.venv/
+backend/venv/
+
+# Environment variables
+.env
+backend/.env
+*.env.local
+
+# Build outputs
+dist/
+build/
+.expo/
+.expo-cache/
+web-build/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.sqlite3
+smartbox.db.bak
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.home/
